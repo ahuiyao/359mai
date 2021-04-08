@@ -1,0 +1,771 @@
+*{
+
+  text-decoration: none;
+  list-style: none;
+  
+}
+html,body, ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,xt,legend,img,input,.de{
+  margin: 0;
+  padding: 0;
+}
+
+//头部
+.bh{
+  width: 100%;
+  background: #f8f8f8;
+  
+}
+header{
+  margin: 0 auto;
+  width: 1190px;
+  height: 36px;
+   background: #f8f8f8;
+  font-size: 12px;
+  line-height: 36px;
+  color: #5e5e5e;
+  border-bottom: 1px solid #e9e9e9;
+  
+    li{
+      float: left;
+      list-style: none;
+   }
+    li:nth-child(2){
+      a{
+        color: red;
+        text-decoration: none;
+      }
+      margin-right:9px ;
+    }
+    li:nth-child(3){
+     a{
+      color: red;
+      text-decoration: none;
+     }
+    }
+    //顶部右边
+    .h_r{
+      float: right;
+      cursor: pointer;
+      li:hover{
+        color: blue;
+      }
+      li:nth-child(5):hover span{
+        display: block;
+        z-index: 1001;
+      }
+      li:nth-child(5):hover{
+        border: 1px solid #5e5e5e;
+        border-bottom:  0px;
+        
+        background: white;
+      }
+      li:nth-child(1){
+        height: 35px;
+        width: 68px;
+        
+      span{
+        margin-left:7px ;
+      }
+      }
+
+      option{
+        font-size: 12px;
+        color: #5e5e5e;
+      }
+      li:nth-child(3){
+        width: 74px;
+        height: 35px;
+        span:nth-child(1){
+          margin-right:7px ;
+        }
+        span:nth-child(2){
+          margin-right:7px ;
+        }
+
+      }
+      li:nth-child(4){
+        width: 106px;
+        background: url("http://www.359mai.com/themes/2414659488/images/dh.gif") no-repeat  0px 10px ;
+        text-indent: 20px;
+        color: red;
+        span{
+          color: #5e5e5e;
+          padding-left: 1px;
+        }
+      }
+
+      li:nth-child(5){
+        width: 80px;
+        height: 28px;
+        margin-top: 8px;
+        line-height: 21px;
+        text-align: center;
+        background: url(http://www.359mai.com/themes/2414659488/images/phone.png) no-repeat 8px 4px;
+        position: relative;
+        span{
+          width: 150px;
+          height: 150px;
+          background: white;
+          border: 1px solid #5e5e5e;
+          border-top: 0px ;
+          position:absolute;   
+          left: -19px;
+          top: 28px;
+          display: none;
+        }
+          img{
+          width: 110px;
+          margin: 19px auto;
+
+        }
+ 
+      }
+
+      li:nth-child(6){
+        width: 51px;
+        background: url(http://www.359mai.com/themes/2414659488/images/sc.png) no-repeat -8px 7px;
+        text-indent: 20px;
+      }
+    }
+    
+
+
+}
+//搜索输入框
+.bi{
+  width: 1190px;
+  margin: 0 auto;
+  img{
+    display: block;
+  }
+}
+.bsearch{
+  width: 100%;
+}
+.search{
+  width: 1190px;
+  height: 123px;
+  // background: pink;
+  margin: 0 auto; 
+  position: relative;
+
+  .search_3{
+    position: absolute;
+    right: 1px;
+    top: 36px;
+   }
+  img{
+    margin-top: 27px;
+  }
+  
+}
+.search_1{
+    width: 511px;
+    height: 65px;
+    position: absolute;
+    left: 400px;
+    top: 35px;
+    input:nth-child(1){
+      width: 410px;
+      height: 36px;
+      border: 2px solid blue;
+      border-right: 0px ;
+      font-size: 12px;
+      color: darkolivegreen;
+      text-indent: 7px;
+      float: left;
+    }
+    input:nth-child(2){
+        width: 92px;
+        height:40px ;
+        font-size: 18px;
+        background: #0083ce;
+        // box-sizing: border-box;
+        // outline: none;
+        border: 0;
+        float: left;
+        color: white;
+    }
+    
+    .search_2{
+      width: 100%;
+      span{
+        font-size: 12px;
+        width: 48px;
+        height: 13px;
+        display: inline-block;
+       
+        a{
+          color: red;
+          margin-right: 8px;
+        }
+        .a1{
+            color: #5e5e5e;
+          }
+        .a2{
+            color: #5e5e5e;
+          }
+      }
+      span:nth-child(3):hover a{
+        color: blue;
+      }
+      span:nth-child(4):hover a{
+        color: blue;
+      }
+      
+    }
+
+  }
+//轮播图周围部分
+.bl{
+  width: 100%;
+  
+
+  .lb{
+    width: 1190px;
+    height: 435px;
+    margin:0 auto ;
+    position: relative;
+  .lb_2{
+    width: 180px;
+    height:36px;
+    background: rgb(25, 133, 217);
+    line-height: 36px;
+    text-indent: 14px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+  }
+#o_ul{
+  position: relative;
+
+  li:nth-child(1) span{
+    background-position: 0px 0px;
+
+}
+
+
+li:nth-child(2) span{
+    background-position: 0px -40px;
+}
+li:nth-child(3) span{
+background-position: 0px -80px;
+}
+li:nth-child(4) span{
+background-position: 0px -120px;
+}
+li:nth-child(5) span{
+background-position: 0px -160px;
+}
+li:nth-child(6) span{
+background-position: 0px -200px;
+}
+li:nth-child(7) span{
+background-position: 0px -240px;
+}
+li:nth-child(8) span{
+background-position: 0px -280px;
+}
+li:nth-child(9) span{
+background-position: 0px -320px;
+}
+li:nth-child(10) span{
+background-position: 0px -360px;
+}
+  li{
+    width: 180px;
+    height: 40px;
+    background:  #299aef;
+    color: #fff;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    text-indent: 47px;
+    position: relative;
+    cursor: pointer;
+    span{
+      position: absolute;
+      left: 14px;
+      top: 9px;
+      width: 24px;
+      height: 24px;
+      background: url(http://www.359mai.com/themes/2414659488/images/pop.gif) no-repeat 0px 0px ;
+      
+    }
+  }
+  li:hover{
+  
+    background: white;
+    color:#299aef ;
+    padding-left: 10px;
+  }
+  li:hover span{
+    position: absolute;
+    left: 19px;
+  }
+
+}
+
+ 
+//下拉列表
+.la{
+  height: 400px;
+  width: 1010px;
+ 
+  position: absolute;
+  top: 36px;
+  left: 180px;
+  z-index: 101;
+  display: none;
+  p{
+    span{
+    font-size: 14px;
+  }
+  }
+  
+  p:nth-child(1) span:nth-child(1){
+    color: #5e5e5e;
+    margin-left: 20px;
+   line-height: 20px;
+  }
+  p:nth-child(1) span:nth-child(2){
+    color: red;
+    float: right;
+    margin-right: 176px;
+    line-height: 24px;
+  }
+  p:nth-child(2){
+    font-size:12px;
+   margin-left: 777px;
+   color: #5e5e5e;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  p:nth-child(3){
+    font-size:12px;
+   margin-left: 777px;
+   color: #5e5e5e;
+
+  }
+
+}
+// 轮播头部小菜单
+.cd{
+  height: 34px;
+  width: 1010px;
+  position: absolute;
+  left: 180px;
+  top: 0px;
+  border-bottom: 2px solid #1985d9;
+  li{
+    float: left;
+    line-height: 34px;
+    font-size: 15px;
+    font-family: "微软雅黑";
+    padding: 0px 15px   ;
+    color:#666 ;
+    cursor: pointer;
+  }
+  li:hover{
+    color: #0563C3;
+  }
+}
+.lbt{
+  width: 750px;
+  height: 400px;
+  background: pink;
+  position: absolute;
+  left: 180px;
+  top: 35px;
+
+}
+//轮播图右边部分
+.main-r{
+  width: 260px;
+  height: 400px;
+
+  position:absolute;
+  right:0 ;
+  top: 35px;
+    .main-1{
+      width: 260px;
+      height: 37px;
+      border: 1px solid #e6e6e6;
+      border-top: 0;
+      span:nth-child(1){
+        color: rgb(51, 51, 51);
+        font-family: 微软雅黑;
+        font-size: 16px;
+        line-height: 36px;
+        margin-left: 10px;
+      }
+      span:nth-child(2){
+        float: right;
+        color: #e72418;
+        font-weight: 700;
+        font-family: Arial;
+        font-size: 18px;
+        padding-left: 23px;
+        line-height: 36px;
+      }
+    }
+    .main_z{
+      width: 258px;
+      height: 150px;
+      border: 1px solid #e6e6e6;
+      border-top:0 ;
+      padding-top: 18px;
+
+     a{
+      color: #5e5e5e;
+      width: 64px;
+      float: left;
+      line-height: 20px;
+      text-decoration: none;
+      text-align: center;
+      margin-bottom: 20px;
+      
+
+    em{
+    color: #0083ce;
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    background: url(http://www.359mai.com/themes/2414659488/images/icon_gonggao.png) no-repeat left top;
+    background-position: 0px 0px;  
+    position: relative;
+         
+  }
+
+
+      }
+    }
+    .main_zz{
+      width: 258px;
+      height: 36px;
+      padding: 0px 0 0 10px;
+      color: #333;
+      font-size: 16px;
+      line-height: 24px;
+      border: 1px solid #e6e6e6;
+      span:nth-child(2){
+        color: #e72418;
+        font-size: 12px;
+        margin-left:  130px; 
+        
+      }
+    }
+    .main_x{
+      width: 258px;
+      height: 106px;
+      border-bottom: 1px solid #e6e6e6;
+       li{
+         width: 258px;
+         height: 14px;
+         font-size: 12px;
+         color: #666;
+         margin-top: 10px;
+         text-indent: 25px;
+         background: url(http://www.359mai.com/themes/2414659488/images/dian.png) no-repeat 10px 7px;
+       }
+    }
+}
+}
+//轮播图下面的商品布局
+.bxg{
+  width: 100%;
+  .xg{
+    width: 1190px;
+    height: 150px;
+    margin: 10px auto;
+   img{
+     overflow: hidden;
+     display: block;
+     float: left;
+   }
+  }
+}
+//热卖产品
+.brm{
+  width: 100%;
+  margin-top: 30px;
+  .rm{
+    width: 1190px;
+    height: 404px;
+  
+    margin: 0 auto;
+    
+    .rm-l{
+      width: 181px;
+      height: 432px;
+      float: left;
+      .rm-2{
+        width: 181px;
+        height: 85px;
+        background: #fc4e4d;
+        font-size: 20px;
+        line-height: 85px;
+        text-align: center;
+        color: white;
+      }
+    }
+    li{
+      width: 200px;
+      height: 201px;
+      // background: red;
+      float: left;
+      border-right: 1px solid #f3f3f3;
+      border-bottom: 1px solid #f3f3f3;
+       img{
+         margin:10px  30px 5px;
+       }
+       .p-1{
+        color: #5e5e5e;
+        text-indent: 23px;
+       }
+       .p-2{
+         color: red;
+        font-size: 15px;
+        text-indent: 36px;
+       }
+    }
+  }
+}
+//广告图
+.logot{
+  width: 1190px;
+    margin: 0 auto;
+  }
+//橱窗推荐
+.brm-1{
+  width: 100%;
+  margin-top: 30px;
+  .rm{
+    width: 1190px;
+    height: 404px;
+ 
+    margin: 0 auto;
+    
+    .rm-l{
+      width: 181px;
+      height: 400px;
+      float: left;
+      .rm-2{
+        width: 181px;
+        height: 85px;
+        background: #fc4e4d;
+        font-size: 20px;
+        line-height: 85px;
+        text-align: center;
+        color: white;
+      }
+    }
+    li{
+      width: 200px;
+      height: 201px;
+      // background: red;
+      float: left;
+      border-right: 1px solid #f3f3f3;
+      border-bottom: 1px solid #f3f3f3;
+       img{
+         margin:10px  30px 5px;
+       }
+       .p-1{
+        color: #5e5e5e;
+        text-indent: 23px;
+       }
+       .p-2{
+         color: red;
+        font-size: 15px;
+        text-indent: 36px;
+       }
+    }
+  }
+}
+
+
+//公共样式之小图跳动
+.main_z-0{
+  width: 100%;
+}
+.main_z-1{
+  width: 1190px;
+  height: 112px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+ a{
+  color: #5e5e5e;
+  width: 119px;
+  float: left;
+  line-height: 20px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  span{
+    font-size: 14px;
+  }
+
+em{
+color: #0083ce;
+width: 48px;
+height: 53px;
+display: block;
+margin: 0 auto;
+background: url(../img/17.png) no-repeat left top;
+background-position: 0px 0px;  
+position: relative;
+margin-bottom: 3px;
+}
+}
+}
+//快到尾的部分
+.bfoot_navi{
+  width: 100%;
+  height: 220px;
+  background:  #0083ce url(../img/14.gif) no-repeat right top;
+  margin-top: 10px; ;
+  .foot_navi{
+    width: 1190px;
+    height: 220px;
+    margin: 0 auto;
+      .f1{
+        padding-top: 20px;
+        float: left;
+        margin-right: 73px;
+        li{
+          font-size: 12px;
+          color: white;
+          line-height: 25px;
+        }
+        li:nth-child(1){
+          margin-bottom: 5px;
+          font-size: 14px;
+        }
+      }
+
+      .f2{
+        div{
+          width: 95px;
+          height: 95px;
+          background: white;
+          float: left;
+          text-align: center;
+          position: relative;
+          left: 47px;
+          top: 29px;
+          img{
+          width: 85px;
+          height: 85px;
+          margin-top: 4px;
+         }
+
+         p{
+          color: white;
+          line-height: 24px;
+       
+          width: 85px;
+          height: 24px;
+          float: left;
+          position: absolute;
+          left: -8px;
+          bottom: -26px;
+        }
+        }
+
+    
+      }
+
+      .f3{
+        div{
+          width: 95px;
+          height: 95px;
+          background: white;
+          float: left;
+          text-align: center;
+          position: relative;
+          left: 96px;
+          top: 29px;
+          img{
+          width: 85px;
+          height: 85px;
+          margin-top: 4px;
+         }
+
+         p{
+          color: white;
+          line-height: 24px;
+       
+          width: 85px;
+          height: 24px;
+          float: left;
+          position: absolute;
+          left: 0px;
+          bottom: -26px;
+        }
+        }
+
+    
+      }
+
+  }
+ 
+}
+
+
+
+//尾部
+ .foot{
+        width: 1190px;
+        margin: 0 auto;
+        img{
+          display: block;
+        }
+      }
+
+
+
+      
+//悬浮
+.float_box{
+  width: 52px;
+  height: 205px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  .kf {
+    width: 52px;
+    height: 52px;
+    display: block;
+    overflow: hidden;
+    background: url(../img/5.png) no-repeat 0px 0px;
+    cursor: pointer;
+      em{
+        display: none;
+        font-style: normal
+      }
+}
+.kf:nth-child(2){
+  background-position: 0px  -52px;
+}
+.kf:nth-child(3){
+  background-position: 0px  -156px;
+}
+.kf:nth-child(4){
+  background-position: 0px  -208px;
+}
+.kf:hover em{
+  padding: 6px;
+  height: 40px;
+  width: 40px;
+  line-height: 20px;
+  text-align: center;
+  display: block;
+  background: #f00;
+  color: #fff;
+  font-size: 15px;
+}
+
+}

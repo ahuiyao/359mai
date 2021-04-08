@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>注册</title>
+  <link rel="stylesheet" href="../css/Registration.min.css">
+
+  <script>
+
+    window.onload = function () {
+      var o_input = document.querySelector("#s_input");
+      o_input.onfocus = function () {
+        this.style.boreder = 'black';
+        this.value = "";
+      }
+      o_input.onblur = function () {
+        this.value = "华为P30 Pro";
+      }
+
+
+
+      //移入的时候让二级菜单出来！！！
+      var o_lb = document.querySelector(".lb_2");
+      var o_ul = document.querySelector("#o_ul");
+      var o_li = document.querySelector("#o_li")
+      var o_la = document.querySelector("#la")
+      o_lb.onmouseenter = function () {
+        o_ul.style.display = "block";
+      }
+      o_lb.onmouseleave = function () {
+        o_ul.style.display = "none";
+      }
+
+
+
+      //轮播旁的二级菜单
+      o_li.onmouseenter = function () {
+        o_la.style.display = "block";
+      }
+      o_li.onmouseleave = function () {
+        o_la.style.display = "none";
+      }
+
+
+
+
+
+    }
+  </script>
+
+</head>
+
+<body>
+  <!-- 顶部部分 -->
+  <div class="bh">
+    <header>
+      <!-- 顶部左边 -->
+      <ul class="h_l">
+        <li>您好，欢迎来到量格购！</li>
+        <li><a href="">[请登录]</a></li>
+        <li><a href="">[免费注册]</a></li>
+      </ul>
+
+      <!-- 顶部右边 -->
+      <ul class="h_r">
+        <li>我的订单 </li>
+        <li><select name="" id=""><span>|</span>
+            <option value="" selected="selected">我的小量</option>
+            <option value=""> 我的优惠卷 </option>
+            <option value="">我的收藏夹</option>
+            <option value="">商品评价</option>
+            <option value="">私人定制</option>
+          </select>
+
+        </li>
+        <li> <span>|</span>帮助中心 <span>|</span></li>
+        <li>13157632491 <span>|</span></li>
+        <li>公众号 <span><img src="../img/2.jpg" alt=""></span></li>
+        <li>收藏</li>
+      </ul>
+    </header>
+  </div>
+  <!-- 头部插图 -->
+  <div class="bi">
+    <a href="">
+      <img src="../img/1.png" alt="">
+    </a>
+  </div>
+  <!-- 搜索栏 -->
+  <div class="bsearch">
+    <div class="search">
+      <img src="img/2.png" alt="">
+
+      <div class="search_1">
+        <input type="text" placeholder="" id="s_input" value="华为P30 Pro"><input type="button" value="搜索">
+        <div class="search_2">
+          <span><a href="">华为</a>|</span>
+          <span><a href="">牛肉丸</a>|</span>
+          <span><a href="" class="a1">茶叶</a>|</span>
+          <span><a href="" class="a2">笔记本</a>|</span>
+        </div>
+      </div>
+
+      <div>
+        <input type="image" value="" src="./img/15.gif" class="search_3">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 轮播图压 -->
+  <div class="bl">
+    <!-- 轮播图周围部分 -->
+    <div class="lb">
+      <!-- 导航侧边二级菜单 -->
+      <div class="lb_2">所有商品分类
+        <ul id="o_ul">
+          <li id="o_li"><span></span> 手机数码</li>
+          <li><span></span> 服饰箱包</li>
+          <li><span></span> 电脑办公</li>
+          <li><span></span> 母婴玩具</li>
+          <li><span></span> 食品酒水</li>
+          <li><span></span> 美容护肤</li>
+          <li><span></span> 家用电器</li>
+          <li><span></span> 居家用品</li>
+          <li><span></span> 汽车五金</li>
+          <li><span></span> 运动户外</li>
+        </ul>
+      </div>
+      <!-- 轮播图头部小菜单 -->
+      <div class="cd">
+        <li>首页</li>
+        <li>会员中心</li>
+        <li>品牌区</li>
+        <li>帮助中心</li>
+        <li>关于我们</li>
+      </div>
+      <div class="la" id="la">
+        <p><span>手机</span> <span>相关品牌</span></p>
+        <p><span>HUAWEI/华为</span> | <span>XIAOMI/小米</span></p>
+        <p> <span>OPPO/欧珀</span> | <span>vivo/步步高</span></p>
+      </div>
+
+
+      <div class="zc">
+        <div class="zc-l">
+          <h2>用户注册</h2>
+          <p> <span class="a1">*手机号:</span> <input type="text" placeholder="请输入十一位的手机号" class="o_inps"> <em id="o_em"> </em></p>
+          <p> <span class="a2">*密码:</span> <input type="password" placeholder="6-20个字符，请不要输入非法字符" class="o_inps"></p>
+          <p> <span class="a3">*确认密码:</span> <input type="password" placeholder="再次填写密码" class="o_inps"></p>
+          <p> <span class="a4">*用户名:</span> <input type="text" class="o_inps"></p>
+          <p> <span class="a5">*QQ:</span> <input type="text" class="o_inps"></p>
+          <p> <span class="a6">*邮箱:</span> <input type="text" class="o_inps"></p>
+          <p> <span class="a7">*验证码:</span> <input type="text" style="width: 90px; height: 30px;" class="o_inps" placeholder="随便写四个输入"> <input type="button" value="获取短信验证" style="width: 130px; height: 28px; background: #f49012; color: white;"> </p>
+          <p> <input type="checkbox" name="" id="" style="width: 13px; height: 13px;" class="a8"> 我已阅读并同意
+            <em>会员注册协议</em>和<em>隐私保护政策</em>
+          </p>
+          <p> <input type="button" value="注册" class="a9" style="background: #fc5910;" id="o_zc"> </p>
+        </div>
+
+        <div class="zc-r">
+          <p><span>已有会员账号请直接登录</span> <input type="button" value="转到登陆页面" id="o_zc1"></p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 下面小图标 -->
+    <div class="float_box">
+      <li class="kf"></li>
+      <li class="kf" id="gwc"> <em>购物车</em></li>
+      <li class="kf" id="fk"> <em>用户反馈</em></li>
+      <li class="kf" id="ftop"> <em>回到顶部</em></li>
+    </div>
+
+    <!-- 公共样式之小图跳动 -->
+    <div class="main_z-0">
+      <div class="main_z-1">
+        <a href="" class="xa"><em class="xt"></em> <span>权威荣耀</span></a>
+        <a href="" class="xa"><em class="xt"></em> <span>权威荣耀</span></a>
+        <a href="" class="xa"><em class="xt"></em> <span>权威荣耀</span></a>
+        <a href="" class="xa"><em class="xt"></em> <span>权威荣耀</span></a>
+        <a href="" class="xa"><em class="xt"></em> <span>权威荣耀</span></a>
+        <a href="" class="xa"><em class="xt"></em> <span>权威荣耀</span></a>
+        <a href="" class="xa"><em class="xt"></em> <span>权威荣耀</span></a>
+        <a href="" class="xa"><em class="xt"></em> <span>权威荣耀</span></a>
+        <a href="" class="xa"><em class="xt"></em> <span>权威荣耀</span></a>
+        <a href="" class="xa"><em class="xt"></em> <span>权威荣耀</span></a>
+      </div>
+    </div>
+
+    <div>
+    </div>
+    <!-- 倒数第二个 -->
+    <div class="bfoot_navi">
+      <div class="foot_navi">
+        <ul class="f1">
+          <li>新手上路</li>
+          <li>顾客必读</li>
+          <li>订单的几种状态</li>
+          <li>积分奖励计划</li>
+          <li>商品退货保障</li>
+          <li>积分抵现</li>
+        </ul>
+        <ul class="f1">
+          <li>购物指南</li>
+          <li>顾客必读</li>
+          <li>订单的几种状态</li>
+          <li>积分奖励计划</li>
+          <li>商品退货保障</li>
+          <li>积分抵现</li>
+        </ul>
+
+        <ul class="f1">
+          <li>支付配送方式</li>
+          <li>顾客必读</li>
+          <li>订单的几种状态</li>
+          <li>积分奖励计划</li>
+          <li>商品退货保障</li>
+          <li>积分抵现</li>
+        </ul>
+
+
+        <ul class="f1">
+          <li style="font-size: 12px;">网站使用条款</li>
+          <li>会员注册协议</li>
+        </ul>
+
+        <ul class="f1">
+          <li>公司简介</li>
+          <li>顾客必读</li>
+          <li>订单的几种状态</li>
+          <li>积分奖励计划</li>
+          <li>商品退货保障</li>
+          <li>积分抵现</li>
+        </ul>
+
+        <div class="f2">
+          <div><img src="../img/2.jpg" alt="">
+            <p>微信公众号</p>
+          </div>
+
+        </div>
+
+        <div class="f3">
+          <div><img src="../img/2.jpg" alt="">
+            <p>支付宝服务器</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <!-- 底部 -->
+
+    <div class="foot">
+      <img src="../img/28.jpg" alt="">
+    </div>
+
+
+    <!-- // 小图动起来 -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script>
+
+      let $xt = $(".xt");
+      let $xa = $(".xa");
+      let $ftop = $("#ftop");
+      $xa.each(function (i) {
+
+        $(this).mouseenter(function () {
+          $xt.eq(i).animate({ top: -5 }, 300).animate({ top: 0 }, 300)
+        })
+      })
+
+      $ftop.click(function () {
+        $('html ,body').animate({ scrollTop: 0 }, 500);
+      })
+
+
+    </script>
+    <script src="../js/Registration .min.js"></script>
+
+
+
+
+</div></body>
+
+</html>

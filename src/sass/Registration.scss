@@ -1,0 +1,89 @@
+@import "public";
+.bl{
+  position: relative;
+ .zc{
+   width: 1190px;
+   height: 724px;
+   position: absolute;
+   margin-top: 8px;
+   border: 2px solid #CCCCCC;
+
+    .zc-r{
+      width: 532px;
+      height: 253px;
+      position: absolute;
+      right: 1px;
+      top: 43px;
+      border-left: 1px  dashed ;
+       span{
+         margin-left: 30px;
+         font-size: 14px;
+         color: #5e5e5e;
+       }
+        input{
+          width: 142px;
+          height: 42px;
+          color: white;
+          background-color: #ca1823;
+        }
+    }
+
+   .zc-l{
+     width: 630px;
+     height: 694px;
+     h2{
+       font-weight: 400;
+       width: 630px;
+       height: 44px;
+       text-indent: 24px;
+       border-bottom: 2px solid #CCCCCC;
+     }
+     span{
+       display: inline-block;
+       width: 145px;
+       height: 32px;
+     }
+     em{
+       font-style:normal ;
+     }
+     p{
+       margin-top: 30px;
+       margin-bottom: 20px;
+     }
+     .a1{
+       text-indent: 73px;
+     }
+     .a2{
+       text-indent: 87px;
+     }
+     .a3{
+       text-indent: 55px;
+     }
+     .a4{
+       text-indent: 72px;
+     }
+     .a5{
+       text-indent: 94px;
+     }
+     .a6{
+       text-indent: 88px;
+     }
+     .a7{
+       text-indent: 71px;
+     }
+     .a8{
+      margin-left: 150px;
+     }
+     .a9{
+       margin-left: 150px;
+       width: 89px;
+       height: 37px;
+       margin-top: 30px;
+     }
+     input{
+       width: 298px;
+       height: 30px;
+     }
+   }
+} 
+}

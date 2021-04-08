@@ -1,0 +1,94 @@
+@import "public";
+.bl{
+  position: relative;
+ .dl{
+  width: 1190px;
+  height: 454px;
+  background:url(http://www.359mai.com/public/images/0d/20/76/30f97df8c47d7ab4ab9f9a40b58fa23aa1e811c6.jpg?1546763509#h) no-repeat 0 center;
+  position: absolute;
+  .dl_r{
+    width: 364px;
+    height: 384px;
+   float: right;
+  
+    margin-top: 20px;
+    border: 1px #5e5e5e solid;
+  }
+
+    .dl_1{
+      width: 100%;
+      height: 44px;
+      border-bottom: 1px solid #5e5e5e;
+      h2{
+        margin-left: 20px;
+        color: #1566C0;
+        line-height: 44px;
+        font-weight: 400;
+    }
+
+  }
+
+  .o_input{
+    width: 298px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 32px;
+    margin-bottom: 15px;
+  }
+  .o_P{
+    margin-top: 30px;
+    .o_inps{
+      margin-left: 20px;
+      margin-right: 10px;
+    }
+    span{
+      height: 16px;
+      color: #666;
+      font-size:13px;
+    }
+  }
+
+  .a1{
+    height: 37px;
+    margin-top: 30px;
+    input{
+      width: 80px;
+      height: 37px;
+      background: #fc5910;
+      color: white;
+      letter-spacing:7px;
+      margin-left: 34px;
+    }
+    span{
+      font-size:13px ;
+      color: #5e5e5e;
+      margin-left: 5px;
+    }
+  }
+
+  .a2{
+      width: 360px;
+      height: 45px;
+      
+      margin-top: 14px;
+     a{
+      color: #E73E31;
+      font-size: 14px;
+      line-height: 45px;    
+      margin-left: 29px;
+     }
+     button{
+       float: right;
+       margin-top: 12px;
+       margin-right: 15px;
+     }
+  }
+
+} 
+}
+
+
+.main_z-0 {
+
+  margin-top: 56px;
+}
